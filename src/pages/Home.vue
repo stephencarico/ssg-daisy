@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="flex flex-col gap-6 m-6">
+    <router-link to="/about" class="btn btn-primary">About</router-link>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
